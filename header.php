@@ -8,7 +8,7 @@
 <header>
   <?php if(is_front_page()): ?>
     <section class="hero">
-      <h1>Welcome to Area 1</h1>
+      <h1>Welcome to Area 1...</h1>
     </section>
   <?php endif; ?>
 </header>
