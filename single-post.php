@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+  <div class="container">
   <?php
     if (have_posts()) {
       while (have_posts()) {
@@ -8,4 +9,5 @@
       <?php }
     }
   ?>
+  </div>
 <?php get_footer(); ?>
